@@ -1,0 +1,29 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1743110337303-2edffbeab0b1?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+p {
+    color: red;
+    font-size: 40px;
+    width: 50%;
+    height: 50px;
+}
+h2 {
+    color: blue;
+    font-size: 60px;
+}
+sub,sup {
+    font-size: 16px;
+    color: brown;
+}
+span {
+    color: blueviolet;
+    font-size: 40px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
