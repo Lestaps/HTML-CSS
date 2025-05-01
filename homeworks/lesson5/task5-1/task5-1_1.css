@@ -1,0 +1,24 @@
+.anim {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: greenyellow;
+    animation: circle 5s linear alternate infinite;
+}
+@keyframes circle {
+    from{
+        transform: scale(1.2) rotate(30deg);
+    }
+    30%{
+        transform: scale(1.1) rotate(20deg);
+        background-color: orange;
+    }
+    70%{
+        transform: scale(1.1) rotate(10deg);
+        background-color: gray;
+    }
+    to{
+        transform: scale(0.9) rotate(0deg);
+
+    }
+}

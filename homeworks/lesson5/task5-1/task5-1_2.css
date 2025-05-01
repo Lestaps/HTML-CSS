@@ -1,0 +1,15 @@
+.anim {
+    width: 300px;
+    height: 300px;
+    margin: 100px auto 0 auto;
+    background: red;
+    animation: translate 10s linear infinite;
+}
+@keyframes translate {
+from{
+    transform: translate(-300px);
+}
+to{
+    background-color: yellow;
+}
+}
