@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form register</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+        form sup{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<form class="form-register">
+    <label for="name">Введіть своє імя</label>
+    <input type="text" name="name" id="name"  placeholder="name" required> <sup>*</sup>
+    <label for="email">Введіть свій email</label>
+    <input type="email" name="email" id="email"  placeholder="email" required> <sup>*</sup>
+    <label for="password">Введіть свій password</label>
+    <input type="password" name="password" id="password"  placeholder="password" required> <sup>*</sup>
+
+    <label>Стать</label>
+    <label><input type="radio" name="gender" value="male">Чоловіча</label>
+    <label><input type="radio" name="gender" value="female">Жіноча</label>
+
+    <label>
+        <input type="checkbox" name="newsletter">Підписатися на новини
+    </label>
+
+    <label for="country">Країна</label>
+    <select name="country" id="country">
+        <option value="">Оберіть країну</option>
+        <option value="ua">Україна</option>
+        <option value="usa">США</option>
+        <option value="canada">Канада</option>
+        <option value="uk">Велико Британія</option>
+    </select>
+<div>
+    <input type="submit" value="Надіслати">
+    <input type="reset" value="Скинути">
+</div>
+</form>
+</body>
+</html>
