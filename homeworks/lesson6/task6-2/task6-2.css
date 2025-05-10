@@ -8,8 +8,6 @@ body{
     font-family: Arial,sans-serif;
 }
 .form-registration {
-    width: 45vw;
-    height: 50vh;
     background-color: whitesmoke;
     border-radius: 20px;
 }
