@@ -1,12 +1,12 @@
 html, body {
-    height: 100%; /* Забезпечує, що html і body займають всю висоту екрана */
-    margin: 0;   /* Видаляє стандартні відступи */
-    padding: 0;  /* Видаляє стандартні відступи */
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 480px) {
     body {
-        overflow-y: auto; /* Додає вертикальний скрол, якщо вміст перевищує висоту */
+        overflow-y: auto;
     }
     .items {
         width: 100%;
