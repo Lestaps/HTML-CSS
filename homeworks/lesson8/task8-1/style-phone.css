@@ -1,0 +1,20 @@
+html, body {
+    height: 100%; /* Забезпечує, що html і body займають всю висоту екрана */
+    margin: 0;   /* Видаляє стандартні відступи */
+    padding: 0;  /* Видаляє стандартні відступи */
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        overflow-y: auto; /* Додає вертикальний скрол, якщо вміст перевищує висоту */
+    }
+    .items {
+        width: 100%;
+        padding: 32px 16px;
+        flex-direction: column;
+    }
+    .item {
+        width: 100%;
+        gap: 40px;
+    }
+}
